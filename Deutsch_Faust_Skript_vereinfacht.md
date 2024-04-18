@@ -12,13 +12,13 @@ Mephistopheles:
 Ich bin's.
 
 Faust:
-      Herein!
+      Herein! 
 
 Mephistopheles:
          Du mußt es dreimal sagen.
 
 Faust:
-Herein denn!
+Herein! Herein! Herein! 
 
 [Meph. Trirr ein]
 [Gewand:
@@ -29,13 +29,12 @@ Mit einem langen, spitzen Degen,]
 Mephistopheles:
 So gefällst du mir.
 Ich hoffe wir verstehen uns.
-Passe dich meiner Gewandung an, dass rat ich dir.
+Pass dich meiner Gewandung an, dass würd ich dir raten.
 
 Faust [demotiviert]:
-In Jeder Kleidung werd ich wohl 
-die Qual spüren, die es ist auf dieser Erde 
-zu wandeln.
-Jeder Tag geht vorbei ohne erfüllung. 
+In Jeder Kleidung werd ich wohl die Qual spüren, 
+die es ist auf dieser Erde zu wandeln.
+Jeder Tag geht vorbei ohne Erfüllung. 
 Jeder Tag ist eine Emberung.
 
 Mephistopheles [Hemisch]:
@@ -43,49 +42,38 @@ Und doch ist nie der Tod ein ganz willkommner Gast.
 
 Faust:
 Währ ich nur so unbescholten wie du.
-Würd ich nur ein Mädchen in den Armen finden.
+Würd ich nur eine Frau in meinen Armen finden, die mich liebt.
 Könnt ich nur ausgelassen Feiern.
 
 Mephistopheles: 
 Trotz deiner sorgen hast du es nicht getahn,
-in jehner Nacht.
+in jener Nacht.
 
 Faust:
-Du spionierst mir also auch nach?
+Du spionierst mir also auch noch nach?
 
 Mephistopheles:
 Allwissend bin ich nicht; 
 doch viel ist mir bewußt.
 
 Faust:
-
 Oft hör ich die Stimmen der Verlockung.
 Nach den Sündhaften all das was die Seele Fesselt 
-Doch ich lass mich nicht Täuschen 
+Doch ich lass mich nicht Täuschen und lass mich nicht fesseln. 
 Auch nicht von der Verlockung des Ruhms und Reichtums 
 Der einzige Reichtum den ich suche ist der des Wissens 
 
-
-Geister, Chor (unsichtbar) :
-
-      [Geistermusik spielt im Hintergrund]
-
 Mephistopheles:
-
-      Das sind meine
-      Hörst du die Verlockung
-      Hörst du den Spaß
-
 Hör auf mit der Wissenschaft
 sie frisst dich auf.
 Sie verfremdet dein Menschsein!
 Ich will dir das schöne im Leben Zeigen [Mefisto fängt an zu Grinsen]
-So will ich mich verpflichten dier zu Dienen 
-und dir die schöne Seite des Lebens Zeigen.
+So will ich mich verpflichten dir zu Dienen 
+und werde dir die schönen Seiten des Lebens Zeigen.
 
 [Faust steht auf]
 Faust:
-Wo ist der Hacken?
+Was ist mein Teil der Verpflichtung?
 
 Mephistopheles:
 Dazu hast du noch eine lange Frist.
@@ -207,6 +195,8 @@ Richte du dich für die schöne Reise.
 
 [Faust ab.]
 
+## [Eventuell Kürtzen]
+[Schnitt]
 [Meph. in Faust Verkleidung hinter seinem Schreibtisch]
 Mephistopheles (in Fausts langem Kleide):
 Die Menschen sind schon leicht zu Manipolieren.
@@ -334,7 +324,12 @@ Eritis sicut Deus, scientes bonum et malum.
 Mephistopheles[allein]:
 So ists gut verfalle meinen Sprüchen.
 
-[Faust tritt auf.]
+## [bist hier kürzen eventuell]
+
+[Falls gekürzt: Einblendung (etwas später) in Fausts Zimmer. Meph. sitzt an Fausts Schreibtisch und schreibt.] 
+[Faust und Mephistopheles treten auf. Faust ist in einem neuen Gewand (ähnelt dem von Faust) mit Reisegepäck, Mephistopheles in einem roten, goldverbrämten Kleide, das Mäntelchen von starrer Seide, die Hahnenfeder auf dem Hut, mit einem langen, spitzen Degen.]
+
+[Faust tritt durch die Tür]
 
 Faust:
 Wohin soll es nun gehn?
@@ -343,7 +338,7 @@ Mephistopheles:
 Wohin es dir gefällt.
 
 Faust:
-Mir fehlt diese Leichtigkeit.
+Mir fehlt diese Leichtigkeit und Spontanität.
 
 Mephistopheles:
 Mein guter Freund, das wird sich alles geben.
@@ -360,6 +355,8 @@ Wir fliegen fort mit meine Zaubermantel.
 
 # Auerbachs Keller in Leipzig
 Zeche lustiger Gesellen.
+
+## Eventuell Kürzen da gesang
 
 Frosch:
 Wo ist eure Heiterkeit meine Gesellen?
@@ -447,14 +444,31 @@ Frosch:
 Die nehm ich mir vor!
 [geht zu den beiden]
 
+## bis hier kürzen eventuell
+
+[Hintergrundgeräusche und gelächter/gesang der Gesselen]
+[Faust und Meph. setzen sich an einen Tisch]
+
 Mephistopheles [zu Faust]:
-Niehmand bemerkt die anwesenheit des Teufels.
+Das gemeine Volk bemerkt die anwesenheit des Teufels nie.
+
+[schnitt zu den Gesellen]
+
+Frosch:
+Seht ihr die beiden da drüben?
+Sie haben eine aussergewöhnliche Gewandung.
+Nicht das sie was schlechte im Schilde führen.
+
+Siebel:
+Die knöpfe ich mir vor!
+
+[Die Gesellen gehen zu Faust und Mephistopheles. Siebel geht vor.]
 
 Faust:
 Seid uns gegrüßt, Allerseits!
 
 Siebel:
-Viel Dank zum Gegengruß.
+Viel Dank, zum Gegengruß.
 [Leise, Mephistopheles von der Seite ansehend.]
 
 Mephistopheles:
@@ -467,13 +481,13 @@ Frosch:
 Habt ihr mit Hans noch zu Abendgegessen?
 
 Mephistopheles:
-Heut sind wir ihn vorbeigereist!
-Wir haben ihn das letztemal gesprochen.
+Heut sind wir bei ihm vorbeigereist!
+Wir haben mit ihm gesprochen.
 Viel Grüße hat er uns aufgetragen.
 [Er neigt sich gegen Frosch.]
 
 Altmayer (leise):
-Da hast du's! der versteht's!
+Da hast du's! 
 
 Frosch:
 Nun, warte nur, ich krieg ihn schon!
@@ -488,13 +502,14 @@ Mephistopheles:
 O nein! Mich packt nur die Lust.
 
 [Die Stimmung wird heiterer]
-[Mephisto singt (Griechischer Wein)]
+[Mephisto singt ein Lied (Ein heiteres Lied) und die Gesellen singen mit (eventuell)]
 
 Altmayer:
 Es lebe die Freiheit! Es lebe der Wein!
 
 Mephistopheles:
-Ich würd gern ein Glas Trinken, doch nicht von diesem Gesöff.
+Ich würd gern ein Glas Trinken, doch nicht von diesem Gesöff das ihr hier drin habt. 
+[Zeigt auf die Gläser der Gesellen]
 
 Siebel:
 Wir mögen das nicht wieder hören!
@@ -502,7 +517,7 @@ Wir mögen das nicht wieder hören!
 Mephistopheles:
 Ich fürchte nur, der Wirt beschweret sich;
 Sonst gäb ich diesen werten Gästen
-Aus unserm Keller was zum besten.
+aus unserm Sortiment was zum besten.
 
 Siebel:
 Nur immer her mit dem guten Zeug! ich nehm's auf mich.
