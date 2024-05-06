@@ -1,0 +1,455 @@
+<!DOCTYPE html><html><head>
+      <title>BE_Second_Test</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///c:\Users\Admin\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.13\crossnote\dependencies\katex\katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="vorgereitung-auf-das-zweite-test">Vorgereitung auf das zweite Test </h1>
+<h2 id="stoff">Stoff: </h2>
+<ul>
+<li>The psychology behind scams: terms (Quizlet), difference between heuristic thinking and rational thinking</li>
+<li>Principles of Marketing Psychology: Reciprocity theory, Scarcity theory, Information gap theory, Social proof theory, Loss aversion marketing (you should be able to explain the theory and name an example)</li>
+<li>Dynamic Pricing/Surge Pricing and Pricing Strategies: explain what dynamic pricing and surge pricing is, give some examples (companies that use these strategies), podcast, pricing strategies (premium pricing, psychological pricing etc.)</li>
+<li>Writing business emails: differentiate between formal and informal style, complaints and apology (maybe you have to write a short formal or informal email)</li>
+<li>Common pitfalls at work: vocabulary (hostility, courtesy, confidentiality etc.) and strategies how to avoid common pitfalls (procrastination, perfectionism, distraction, displaying hostility)</li>
+</ul>
+<h2 id="the-psychology-behind-scams">The psychology behind scams: </h2>
+<h3 id="terms">Terms: </h3>
+<table>
+<thead>
+<tr>
+<th>English</th>
+<th>Deutsch</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>bias</td>
+<td>Voreingenommenheit</td>
+</tr>
+<tr>
+<td>confirmation bias</td>
+<td>Bestätigungsfehler</td>
+</tr>
+<tr>
+<td>to be biased</td>
+<td>voreingenommen sein</td>
+</tr>
+<tr>
+<td>to leverage</td>
+<td>zum Vorteil nutzen</td>
+</tr>
+<tr>
+<td>to build momentum</td>
+<td>Dynamik aufbauen</td>
+</tr>
+<tr>
+<td>plethora</td>
+<td>Fülle</td>
+</tr>
+<tr>
+<td>to fall prey to sth.</td>
+<td>etw. zum Opfer fallen</td>
+</tr>
+<tr>
+<td>to prey on</td>
+<td>auf etwas jagt machen</td>
+</tr>
+<tr>
+<td>to employ</td>
+<td>etw. anwenden</td>
+</tr>
+<tr>
+<td>peripheral</td>
+<td>nebensächlich</td>
+</tr>
+<tr>
+<td>peripheral route</td>
+<td>Randstrecke</td>
+</tr>
+<tr>
+<td>heuristic thinking</td>
+<td>heuristisches Denken -&gt; schnelles, intuitives Denken</td>
+</tr>
+<tr>
+<td>fraudsters</td>
+<td>Betrüger/innen</td>
+</tr>
+<tr>
+<td>conman</td>
+<td>Schwindler/in</td>
+</tr>
+<tr>
+<td>to con sb.</td>
+<td>jmdn. betrügen</td>
+</tr>
+<tr>
+<td>recipient</td>
+<td>Empfänger/in</td>
+</tr>
+<tr>
+<td>credibility</td>
+<td>Glaubwürdigkeit</td>
+</tr>
+<tr>
+<td>scarcity</td>
+<td>Knappheit</td>
+</tr>
+<tr>
+<td>reciprocity</td>
+<td>Gegenseitigkeit</td>
+</tr>
+<tr>
+<td>to comply</td>
+<td>sich fügen</td>
+</tr>
+<tr>
+<td>superficial</td>
+<td>oberflächlich</td>
+</tr>
+</tbody>
+</table>
+<h3 id="difference-between-heuristic-thinking-and-rational-thinking">Difference between heuristic thinking and rational thinking: </h3>
+<h4 id="heuristic-thinking">Heuristic thinking: </h4>
+<ul>
+<li>fast, intuitive thinking</li>
+<li>often leads to errors</li>
+<li>based on experience</li>
+<li>uses shortcuts to make quick decisions</li>
+<li>can be influenced by emotions</li>
+<li>can be helpful in certain situations</li>
+<li>can be exploited by scammers</li>
+<li>can be influenced by cognitive biases</li>
+<li>can lead to snap judgments</li>
+<li>can be influenced by social proof</li>
+</ul>
+<h4 id="rational-thinking">Rational thinking: </h4>
+<ul>
+<li>slow, deliberate thinking</li>
+<li>based on logic and reasoning</li>
+<li>considers all available information</li>
+<li>less prone to errors</li>
+<li>less influenced by emotions</li>
+<li>can be time-consuming</li>
+<li>can lead to more accurate decisions</li>
+<li>can be used to counteract heuristic biases</li>
+</ul>
+<h2 id="principles-of-marketing-psychology">Principles of Marketing Psychology: </h2>
+<h3 id="reciprocity-theory">Reciprocity theory: </h3>
+<p>Reciprocity is a social norm that involves responding to a positive action with another positive action. In marketing, reciprocity theory suggests that when a company provides value or benefits to customers, those customers are more likely to reciprocate by making a purchase or taking a desired action. For example, offering a free sample or trial can trigger the reciprocity principle and lead to increased sales.</p>
+<p><strong>in German:</strong><br>
+Reziprozität ist eine soziale Norm, die darauf beruht, auf eine positive Handlung mit einer weiteren positiven Handlung zu reagieren. Im Marketing legt die Reziprozitätstheorie nahe, dass Kunden, wenn ein Unternehmen ihnen Wert oder Vorteile bietet, eher dazu neigen, durch einen Kauf oder eine gewünschte Handlung zu erwidern. Zum Beispiel kann das Angebot einer kostenlosen Probe oder eines Tests die Reziprozitätsprinzip auslösen und zu erhöhten Verkäufen führen.</p>
+<h3 id="scarcity-theory">Scarcity theory: </h3>
+<p>Scarcity theory is based on the idea that people value things more when they are limited in availability. By creating a sense of scarcity or urgency, marketers can increase demand for a product or service. For example, using phrases like "limited time offer" or "while supplies last" can trigger the scarcity principle and motivate customers to act quickly.</p>
+<p><strong>in German:</strong><br>
+Die Knappheitstheorie basiert auf der Idee, dass Menschen Dinge mehr schätzen, wenn sie in ihrer Verfügbarkeit begrenzt sind. Indem sie ein Gefühl von Knappheit oder Dringlichkeit erzeugen, können Vermarkter die Nachfrage nach einem Produkt oder einer Dienstleistung steigern. Zum Beispiel können Phrasen wie "begrenztes Angebot" oder "solange der Vorrat reicht" das Knappheitsprinzip auslösen und Kunden dazu motivieren, schnell zu handeln.</p>
+<h3 id="information-gap-theory">Information gap theory: </h3>
+<p>The information gap theory suggests that people are motivated to seek out information to bridge the gap between what they know and what they want to know. By creating curiosity or a sense of mystery, marketers can engage customers and encourage them to learn more about a product or service. For example, using teaser campaigns or incomplete information can trigger the information gap principle and drive interest in a new product launch.</p>
+<p><strong>in German:</strong><br>
+Die Informationslückentheorie besagt, dass Menschen motiviert sind, Informationen zu suchen, um die Lücke zwischen dem, was sie wissen, und dem, was sie wissen möchten, zu schließen. Indem sie Neugier oder ein Gefühl des Geheimnisses erzeugen, können Vermarkter Kunden einbinden und sie dazu ermutigen, mehr über ein Produkt oder eine Dienstleistung zu erfahren. Zum Beispiel können Teaser-Kampagnen oder unvollständige Informationen das Informationslückenprinzip auslösen und das Interesse an einem neuen Produktstart steigern.</p>
+<h3 id="social-proof-theory">Social proof theory: </h3>
+<p>Social proof theory suggests that people are more likely to adopt a behavior or belief if they see others doing the same. By showcasing testimonials, reviews, or endorsements from satisfied customers, marketers can leverage social proof to build trust and credibility with potential customers. For example, displaying customer ratings or user-generated content can trigger the social proof principle and influence purchasing decisions.</p>
+<p><strong>in German:</strong><br>
+Die Theorie des sozialen Beweises besagt, dass Menschen eher ein Verhalten oder eine Überzeugung übernehmen, wenn sie sehen, dass andere dasselbe tun. Indem sie Testimonials, Bewertungen oder Empfehlungen von zufriedenen Kunden präsentieren, können Vermarkter den sozialen Beweis nutzen, um Vertrauen und Glaubwürdigkeit bei potenziellen Kunden aufzubauen. Zum Beispiel können die Anzeige von Kundenbewertungen oder nutzergenerierten Inhalten das Prinzip des sozialen Beweises auslösen und Kaufentscheidungen beeinflussen.</p>
+<h3 id="loss-aversion-marketing">Loss aversion marketing: </h3>
+<p>Loss aversion marketing is based on the idea that people are more motivated by the fear of losing something than by the prospect of gaining something of equal value. By framing a marketing message in terms of potential losses or missed opportunities, marketers can tap into customers' aversion to loss and drive action. For example, using phrases like "don't miss out" or "limited quantities available" can trigger the loss aversion principle and prompt customers to make a purchase.</p>
+<p><strong>in German:</strong><br>
+Das Marketing der Verlustaversion basiert auf der Idee, dass Menschen stärker durch die Angst, etwas zu verlieren, motiviert sind als durch die Aussicht, etwas von gleichem Wert zu gewinnen. Indem sie eine Marketingbotschaft in Bezug auf potenzielle Verluste oder verpasste Chancen formulieren, können Vermarkter die Abneigung der Kunden gegenüber Verlusten nutzen und Handlungen auslösen. Zum Beispiel können Phrasen wie "nicht verpassen" oder "begrenzte Mengen verfügbar" das Prinzip der Verlustaversion auslösen und Kunden dazu veranlassen, einen Kauf zu tätigen.</p>
+<h2 id="dynamic-pricingsurge-pricing-and-pricing-strategies">Dynamic Pricing/Surge Pricing and Pricing Strategies: </h2>
+<h3 id="dynamic-pricingsurge-pricing">Dynamic Pricing/Surge Pricing: </h3>
+<h4 id="dynamic-pricing">Dynamic Pricing: </h4>
+<p>Dynamic pricing, also known as demand-based pricing, is a pricing strategy in which businesses adjust the price of a product or service in real-time based on market demand, competitor pricing, and other factors. By using algorithms and data analytics, companies can optimize pricing to maximize revenue and profit. Examples of dynamic pricing include surge pricing for ride-sharing services, personalized pricing for e-commerce websites, and yield management for airlines and hotels.</p>
+<p><strong>in German:</strong><br>
+Dynamische Preisgestaltung, auch bekannt als nachfrageorientierte Preisgestaltung, ist eine Preisstrategie, bei der Unternehmen den Preis eines Produkts oder einer Dienstleistung in Echtzeit basierend auf der Marktnachfrage, der Preisgestaltung der Wettbewerber und anderen Faktoren anpassen. Durch den Einsatz von Algorithmen und Datenanalyse können Unternehmen die Preisgestaltung optimieren, um den Umsatz und den Gewinn zu maximieren. Beispiele für dynamische Preisgestaltung sind die Preiserhöhung für Fahrdienste, die personalisierte Preisgestaltung für E-Commerce-Websites und das Ertragsmanagement für Fluggesellschaften und Hotels.</p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li>Uber surge pricing during peak hours</li>
+<li>Amazon's personalized pricing based on user behavior</li>
+<li>Airlines adjusting ticket prices based on demand and booking patterns</li>
+<li>Hotels offering discounted rates for last-minute bookings</li>
+</ul>
+<h4 id="surge-pricing">Surge Pricing: </h4>
+<p>Surge pricing, also known as dynamic pricing, is a pricing strategy in which businesses increase the price of a product or service during periods of high demand or low supply. This strategy is commonly used by ride-sharing services, food delivery apps, and event ticketing platforms to balance supply and demand and incentivize drivers or couriers to work during peak times. While surge pricing can lead to higher prices for consumers, it can also help companies manage capacity and optimize revenue.</p>
+<p><strong>in German:</strong><br>
+Die Preiserhöhung, auch bekannt als dynamische Preisgestaltung, ist eine Preisstrategie, bei der Unternehmen den Preis eines Produkts oder einer Dienstleistung in Zeiten hoher Nachfrage oder geringer Verfügbarkeit erhöhen. Diese Strategie wird häufig von Fahrdiensten, Lebensmittelliefer-Apps und Event-Ticketing-Plattformen verwendet, um Angebot und Nachfrage auszugleichen und Fahrer oder Kuriere zu motivieren, während der Stoßzeiten zu arbeiten. Obwohl die Preiserhöhung zu höheren Preisen für Verbraucher führen kann, kann sie Unternehmen auch dabei helfen, die Kapazität zu verwalten und den Umsatz zu optimieren.</p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li>Food delivery apps increasing prices during peak meal times</li>
+<li>Event ticketing platforms raising prices for popular concerts or sports events</li>
+<li>Hotels charging higher rates during holidays or special events</li>
+</ul>
+<h3 id="pricing-strategies">Pricing Strategies: </h3>
+<h4 id="premium-pricing">Premium Pricing: </h4>
+<p>Premium pricing is a pricing strategy in which businesses set higher prices for their products or services to position themselves as high-quality or luxury brands. By charging a premium, companies can create a perception of exclusivity, quality, and value among customers. Examples of premium pricing include luxury fashion brands, high-end electronics, and gourmet restaurants.</p>
+<p><strong>in German:</strong><br>
+Die Premium-Preisgestaltung ist eine Preisstrategie, bei der Unternehmen höhere Preise für ihre Produkte oder Dienstleistungen festlegen, um sich als hochwertige oder Luxusmarken zu positionieren. Durch die Erhebung eines Aufschlags können Unternehmen bei den Kunden ein Gefühl von Exklusivität, Qualität und Wert schaffen. Beispiele für Premium-Preisgestaltung sind Luxusmodemarken, hochwertige Elektronik und Gourmetrestaurants.</p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li>Apple's premium pricing for iPhones and MacBooks</li>
+<li>Rolex's luxury pricing for high-end watches</li>
+<li>Michelin-starred restaurants charging premium prices for fine dining experiences</li>
+</ul>
+<h4 id="psychological-pricing">Psychological Pricing: </h4>
+<p>Psychological pricing is a pricing strategy that leverages human psychology to influence purchasing decisions. By using pricing tactics such as charm pricing (ending prices in 9 or 99), prestige pricing (setting prices just below a round number), or price anchoring (comparing prices to a higher or lower reference point), companies can create a perception of value or affordability among customers. Examples of psychological pricing include <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>9.99</mn><mi>i</mi><mi>n</mi><mi>s</mi><mi>t</mi><mi>e</mi><mi>a</mi><mi>d</mi><mi>o</mi><mi>f</mi></mrow><annotation encoding="application/x-tex">9.99 instead of</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord">9.99</span><span class="mord mathnormal">in</span><span class="mord mathnormal">s</span><span class="mord mathnormal">t</span><span class="mord mathnormal">e</span><span class="mord mathnormal">a</span><span class="mord mathnormal">d</span><span class="mord mathnormal">o</span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span></span></span></span>10, <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>199</mn><mi>i</mi><mi>n</mi><mi>s</mi><mi>t</mi><mi>e</mi><mi>a</mi><mi>d</mi><mi>o</mi><mi>f</mi></mrow><annotation encoding="application/x-tex">199 instead of</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord">199</span><span class="mord mathnormal">in</span><span class="mord mathnormal">s</span><span class="mord mathnormal">t</span><span class="mord mathnormal">e</span><span class="mord mathnormal">a</span><span class="mord mathnormal">d</span><span class="mord mathnormal">o</span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span></span></span></span>200, and buy-one-get-one-free promotions.</p>
+<p><strong>in German:</strong><br>
+Die psychologische Preisgestaltung ist eine Preisstrategie, die die menschliche Psychologie nutzt, um Kaufentscheidungen zu beeinflussen. Durch den Einsatz von Preisstrategien wie Charme-Preisgestaltung (Preise enden auf 9 oder 99), Prestige-Preisgestaltung (Festlegung von Preisen knapp unter einer runden Zahl) oder Preisverankerung (Vergleich von Preisen mit einem höheren oder niedrigeren Referenzpunkt) können Unternehmen bei den Kunden ein Gefühl von Wert oder Erschwinglichkeit schaffen. Beispiele für psychologische Preisgestaltung sind 9,99 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mi>n</mi><mi>s</mi><mi>t</mi><mi>e</mi><mi>l</mi><mi>l</mi><mi>e</mi><mi>v</mi><mi>o</mi><mi>n</mi><mn>10</mn></mrow><annotation encoding="application/x-tex">anstelle von 10</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">an</span><span class="mord mathnormal">s</span><span class="mord mathnormal">t</span><span class="mord mathnormal">e</span><span class="mord mathnormal" style="margin-right:0.01968em;">ll</span><span class="mord mathnormal">e</span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mord mathnormal">o</span><span class="mord mathnormal">n</span><span class="mord">10</span></span></span></span>, 199 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mi>n</mi><mi>s</mi><mi>t</mi><mi>e</mi><mi>l</mi><mi>l</mi><mi>e</mi><mi>v</mi><mi>o</mi><mi>n</mi><mn>200</mn></mrow><annotation encoding="application/x-tex">anstelle von 200</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">an</span><span class="mord mathnormal">s</span><span class="mord mathnormal">t</span><span class="mord mathnormal">e</span><span class="mord mathnormal" style="margin-right:0.01968em;">ll</span><span class="mord mathnormal">e</span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mord mathnormal">o</span><span class="mord mathnormal">n</span><span class="mord">200</span></span></span></span> und Kauf-eins-bekomme-eins-kostenlos-Aktionen.</p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li>Retailers using $0.99 pricing to create the perception of a lower price</li>
+<li>Car dealerships setting prices just below a round number to appear more affordable</li>
+<li>Fast food chains offering value meals and combo deals to encourage larger purchases</li>
+</ul>
+<h4 id="bundle-pricing">Bundle Pricing: </h4>
+<p>Bundle pricing is a pricing strategy in which businesses offer multiple products or services together at a discounted rate. By bundling complementary items or services, companies can increase the perceived value of the bundle and encourage customers to make a larger purchase. Examples of bundle pricing include software packages, vacation packages, and meal deals at restaurants.</p>
+<p><strong>in German:</strong><br>
+Die Bündelungspreisgestaltung ist eine Preisstrategie, bei der Unternehmen mehrere Produkte oder Dienstleistungen zusammen zu einem ermäßigten Preis anbieten. Durch das Bündeln von ergänzenden Artikeln oder Dienstleistungen können Unternehmen den wahrgenommenen Wert des Pakets erhöhen und Kunden dazu ermutigen, einen größeren Kauf zu tätigen. Beispiele für Bündelungspreisgestaltung sind Softwarepakete, Urlaubspakete und Mahlzeitenangebote in Restaurants.</p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li>Streaming services offering bundle deals with multiple channels or platforms</li>
+<li>Cell phone carriers bundling phone plans with accessories or additional services</li>
+<li>Retailers selling gift sets or value packs with multiple products at a discounted price</li>
+</ul>
+<h4 id="freemium-pricing">Freemium Pricing: </h4>
+<p>Freemium pricing is a pricing strategy in which businesses offer a basic version of their product or service for free, while charging for premium features or upgrades. By providing a free entry point, companies can attract a larger user base and upsell premium offerings to customers who value additional features or functionality. Examples of freemium pricing include software with free and paid versions, mobile apps with in-app purchases, and online platforms with subscription tiers.</p>
+<p><strong>in German:</strong><br>
+Die Freemium-Preisgestaltung ist eine Preisstrategie, bei der Unternehmen eine Grundversion ihres Produkts oder ihrer Dienstleistung kostenlos anbieten und für Premiumfunktionen oder Upgrades berechnen. Durch die Bereitstellung eines kostenlosen Einstiegspunkts können Unternehmen eine größere Benutzerbasis anziehen und Premiumangebote an Kunden verkaufen, die zusätzliche Funktionen oder Funktionalitäten schätzen. Beispiele für Freemium-Preisgestaltung sind Software mit kostenlosen und kostenpflichtigen Versionen, mobile Apps mit In-App-Käufen und Online-Plattformen mit Abonnementstufen.</p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li>Spotify offering a free ad-supported version and a premium ad-free version</li>
+<li>Dropbox providing free storage with paid plans for additional space and features</li>
+<li>LinkedIn offering basic networking features for free and premium features for job seekers and recruiters</li>
+</ul>
+<h2 id="writing-business-emails">Writing business emails: </h2>
+<h3 id="differentiate-between-formal-and-informal-style">Differentiate between formal and informal style: </h3>
+<table>
+<thead>
+<tr>
+<th>Formal</th>
+<th>Informal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dear Mr. Smith,</td>
+<td>Hi Martha,</td>
+</tr>
+<tr>
+<td>I am writing to inquire about...</td>
+<td>Just wanted to ask...</td>
+</tr>
+<tr>
+<td>Please find attached the report.</td>
+<td>I've attached the report.</td>
+</tr>
+<tr>
+<td>Thank you for your attention to this matter.</td>
+<td>Thanks for looking into this.</td>
+</tr>
+<tr>
+<td>Sincerely,</td>
+<td>Cheers,</td>
+</tr>
+<tr>
+<td>Head of Marketing</td>
+<td>Marketing Team</td>
+</tr>
+<tr>
+<td>neutral tone</td>
+<td>friendly tone</td>
+</tr>
+<tr>
+<td>professional language</td>
+<td>casual language</td>
+</tr>
+<tr>
+<td>structured format</td>
+<td>conversational format</td>
+</tr>
+<tr>
+<td>appropriate for official communication</td>
+<td>suitable for internal communication</td>
+</tr>
+<tr>
+<td>used with clients, superiors, or external partners</td>
+<td>used with colleagues, friends, or informal contacts</td>
+</tr>
+<tr>
+<td>follows standard conventions</td>
+<td>allows for more creativity and personalization</td>
+</tr>
+</tbody>
+</table>
+<h3 id="complaints-and-apology">Complaints and apology: </h3>
+<h4 id="complaints">Complaints: </h4>
+<ul>
+<li>Begin with a polite greeting</li>
+<li>Clearly state the issue or problem</li>
+<li>Provide relevant details or evidence</li>
+<li>Express your dissatisfaction or concern</li>
+<li>Request a resolution or action</li>
+<li>End with a polite closing</li>
+<li>Avoid using aggressive or accusatory language</li>
+<li>Be specific and concise in your complaint</li>
+<li>Offer suggestions for improvement or resolution</li>
+<li>Provide contact information for follow-up</li>
+<li>Acknowledge any inconvenience caused</li>
+<li>Express appreciation for prompt attention or resolution</li>
+</ul>
+<h4 id="apology">Apology: </h4>
+<ul>
+<li>Begin with a sincere apology</li>
+<li>Acknowledge the mistake or error</li>
+<li>Accept responsibility for the situation</li>
+<li>Offer a solution or compensation</li>
+<li>Express regret or remorse</li>
+<li>Assure the recipient that steps will be taken to prevent future occurrences</li>
+<li>End with a commitment to better service or quality</li>
+<li>Avoid making excuses or shifting blame</li>
+<li>Be genuine and empathetic in your apology</li>
+<li>Provide a timeline for resolution or follow-up</li>
+<li>Follow up with the recipient to ensure satisfaction</li>
+<li>Thank the recipient for their understanding or patience</li>
+<li>Express gratitude for the opportunity to make amends</li>
+</ul>
+<h2 id="common-pitfalls-at-work">Common pitfalls at work: </h2>
+<h3 id="vocabulary">Vocabulary: </h3>
+<table>
+<thead>
+<tr>
+<th>English</th>
+<th>Deutsch</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>hostility</td>
+<td>Feindseligkeit</td>
+</tr>
+<tr>
+<td>courtesy</td>
+<td>Höflichkeit</td>
+</tr>
+<tr>
+<td>confidentiality</td>
+<td>Vertraulichkeit</td>
+</tr>
+<tr>
+<td>procrastination</td>
+<td>Aufschieben</td>
+</tr>
+<tr>
+<td>perfectionism</td>
+<td>Perfektionismus</td>
+</tr>
+<tr>
+<td>distraction</td>
+<td>Ablenkung</td>
+</tr>
+<tr>
+<td>displaying hostility</td>
+<td>Feindseligkeit zeigen</td>
+</tr>
+<tr>
+<td>showing courtesy</td>
+<td>Höflichkeit zeigen</td>
+</tr>
+<tr>
+<td>maintaining confidentiality</td>
+<td>Vertraulichkeit wahren</td>
+</tr>
+<tr>
+<td>avoiding procrastination</td>
+<td>Aufschieben vermeiden</td>
+</tr>
+<tr>
+<td>overcoming perfectionism</td>
+<td>Perfektionismus überwinden</td>
+</tr>
+<tr>
+<td>minimizing distractions</td>
+<td>Ablenkungen minimieren</td>
+</tr>
+<tr>
+<td>fostering a positive work environment</td>
+<td>ein positives Arbeitsumfeld fördern</td>
+</tr>
+<tr>
+<td>promoting teamwork and collaboration</td>
+<td>Teamarbeit und Zusammenarbeit fördern</td>
+</tr>
+</tbody>
+</table>
+<h3 id="strategies-how-to-avoid-common-pitfalls">Strategies how to avoid common pitfalls: </h3>
+<h4 id="procrastination">Procrastination: </h4>
+<p><strong>Explanation:</strong><br>
+Procrastination is the act of delaying or postponing tasks or responsibilities, often due to a lack of motivation, time management skills, or self-discipline. It can lead to increased stress, missed deadlines, and decreased productivity.</p>
+<p><strong>Strategies to avoid procrastination:</strong></p>
+<ul>
+<li>Break tasks into smaller, manageable steps</li>
+<li>Set specific, achievable goals and deadlines</li>
+<li>Prioritize tasks based on importance and urgency</li>
+<li>Create a schedule or to-do list to stay organized</li>
+<li>Eliminate distractions and focus on one task at a time</li>
+</ul>
+<h4 id="perfectionism">Perfectionism: </h4>
+<p><strong>Explanation:</strong><br>
+Perfectionism is the tendency to set excessively high standards for oneself or others, leading to dissatisfaction, self-criticism, and fear of failure. It can hinder productivity, creativity, and personal growth.</p>
+<p><strong>Strategies to overcome perfectionism:</strong></p>
+<ul>
+<li>Set realistic goals and expectations</li>
+<li>Focus on progress and improvement rather than perfection</li>
+<li>Practice self-compassion and self-acceptance</li>
+<li>Seek feedback and support from others</li>
+</ul>
+<h4 id="distraction">Distraction: </h4>
+<p><strong>Explanation:</strong><br>
+Distraction is the process of diverting attention away from a task or goal, often due to external stimuli, internal thoughts, or lack of focus. It can disrupt workflow, decrease concentration, and hinder performance.</p>
+<p><strong>Strategies to minimize distractions:</strong></p>
+<ul>
+<li>Create a designated workspace free from noise or interruptions</li>
+<li>Use time management techniques like the Pomodoro method</li>
+<li>Turn off notifications or alerts on electronic devices</li>
+<li>Limit multitasking and focus on one task at a time</li>
+</ul>
+<h4 id="displaying-hostility">Displaying hostility: </h4>
+<p><strong>Explanation:</strong><br>
+Displaying hostility is the act of showing aggression, anger, or negativity towards others in the workplace, often due to stress, conflict, or personal issues. It can create a toxic work environment, damage relationships, and hinder collaboration.</p>
+<p><strong>Strategies to show courtesy and professionalism:</strong></p>
+<ul>
+<li>Practice active listening and empathy</li>
+<li>Communicate openly and respectfully with colleagues</li>
+<li>Seek constructive solutions to conflicts or disagreements</li>
+<li>Maintain a positive attitude and demeanor</li>
+</ul>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
