@@ -169,5 +169,200 @@
       "Zunahme der lokalen Lebensmittelproduktion"
     ],
     "answerIndex": 1
+  },
+  {
+    "text": "Welches Konzept ist zentral für die Dependenztheorie?",
+    "options": [
+      "Wirtschaftliche Selbstständigkeit",
+      "Kulturelle Assimilation",
+      "Strukturelle Abhängigkeit",
+      "Politische Isolation"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "text": "Was beschreibt die Hauptfunktion von sozialen Sicherungsnetzen in der sozialen Marktwirtschaft?",
+    "options": [
+      "Förderung von Unternehmensgewinnen",
+      "Schutz vor wirtschaftlichen Risiken für Bürger",
+      "Beschränkung ausländischer Investitionen",
+      "Unterstützung der Landwirtschaft"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "text": "Welche der folgenden Maßnahmen ist KEINE typische Anpassung an den Klimawandel in der Landwirtschaft?",
+    "options": [
+      "Verstärkter Einsatz von Gentechnik",
+      "Reduzierung der Wasserressourcen-Nutzung",
+      "Zunahme der chemischen Düngemittel",
+      "Einführung von Agroforstwirtschaft"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "text": "In welcher Marktform sind strategische Interaktionen zwischen den Anbietern am bedeutendsten?",
+    "options": ["Monopol", "Polypol", "Oligopol", "Vollkommener Markt"],
+    "answerIndex": 2
+  },
+  {
+    "text": "Welche Aussage trifft auf die Auswirkungen von Urbanisierung auf soziale Strukturen am besten zu?",
+    "options": [
+      "Führt zu einer erhöhten Gleichheit in der Gesellschaft",
+      "Vermindert generell die Lebensqualität",
+      "Kann soziale Isolation und Segregation verstärken",
+      "Eliminiert traditionelle soziale Hierarchien"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "text": "Welches Element dominiert in der polittheoretischen Perspektive der Entwicklungstheorien?",
+    "options": [
+      "Wirtschaftswachstum",
+      "Militärstrategien",
+      "Globale Handelsnetze",
+      "Staatliche Intervention"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "text": "Wie wirken sich exogene Faktoren spezifisch auf die Wirtschaftspolitik von Entwicklungsländern aus?",
+    "options": [
+      "Sie begrenzen oft die politische Handlungsfähigkeit",
+      "Sie erweitern den Zugang zu globalen Märkten",
+      "Sie reduzieren die Staatsverschuldung",
+      "Sie fördern protektionistische Maßnahmen"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "text": "Welche Rolle spielt technologischer Transfer in der Modernisierungstheorie?",
+    "options": [
+      "Er wird als irrelevant betrachtet",
+      "Er ist zentral für die wirtschaftliche Entwicklung",
+      "Er wird als nachteilig für die Kultur angesehen",
+      "Er führt zu verstärkter Umweltverschmutzung"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "text": "Welche langfristigen Auswirkungen können Land Deals in Afrika auf die lokale Nahrungssicherheit haben?",
+    "options": [
+      "Verbesserung durch Technologietransfer",
+      "Verschlechterung durch Anbau von Exportkulturen",
+      "Keine Auswirkungen, da die lokale Landwirtschaft unverändert bleibt",
+      "Erhöhung durch verbesserte landwirtschaftliche Methoden"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "text": "Wie beeinflusst ein Monopol die Preisgestaltung auf dem Markt im Vergleich zu anderen Marktformen?",
+    "options": [
+      "Es führt zu höheren Preisen durch geringeren Wettbewerb",
+      "Es senkt die Preise durch effiziente Produktionsmethoden",
+      "Es hat keinen Einfluss auf die Preise",
+      "Es steigert die Preistransparenz"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "text": "Welche wirtschaftliche Konsequenz resultiert primär aus der Verdrängung lokaler Kleinbauern durch Land Deals?",
+    "options": [
+      "Steigerung der lokalen Lebensmittelproduktion",
+      "Erhöhung der Exporte",
+      "Verlust von Agrarland und Reduktion der Lebensmittelsicherheit",
+      "Zunahme der technologischen Innovation"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "text": "Was beschreibt am besten die Rolle von Bildung in der Modernisierungstheorie?",
+    "options": [
+      "Bildung ist weniger wichtig als technologischer Fortschritt",
+      "Bildung wird als Kernfaktor für sozialen Wandel und Wirtschaftswachstum angesehen",
+      "Bildung wird ausschließlich für die Elite gefördert",
+      "Bildung hat keinen Einfluss auf die wirtschaftliche Entwicklung"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "text": "Wie interagieren politische und wirtschaftliche Faktoren in der Dependenztheorie?",
+    "options": [
+      "Sie sind unabhängig voneinander",
+      "Politische Abhängigkeit verstärkt wirtschaftliche Ausbeutung",
+      "Wirtschaftliche Stärke verringert politische Abhängigkeit",
+      "Politische Stabilität hat keine Auswirkungen auf wirtschaftliche Abhängigkeiten"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "text": "Welches Ziel verfolgt die Einführung von Agroforstwirtschaft als Anpassung an den Klimawandel?",
+    "options": [
+      "Reduzierung der Artenvielfalt",
+      "Steigerung des Einsatzes chemischer Düngemittel",
+      "Verbesserung der Bodenqualität und Erhöhung der CO2-Sequestrierung",
+      "Verringerung der landwirtschaftlichen Produktionseffizienz"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "text": "Welcher Faktor beeinflusst die Urbanisierung und ihre Auswirkungen auf Umwelt und Gesellschaft am stärksten?",
+    "options": [
+      "Globale Temperaturanstiege",
+      "Sozioökonomische Politiken",
+      "Lokale landwirtschaftliche Praktiken",
+      "Maritime Handelsrouten"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "text": "In welchem Kontext spielen internationale Handelsbeziehungen eine kritische Rolle in der Dependenztheorie?",
+    "options": [
+      "Förderung von kulturellem Austausch",
+      "Verstärkung von wirtschaftlicher Unabhängigkeit",
+      "Etablierung von unfairen Handelsbedingungen, die die Peripherie benachteiligen",
+      "Schaffung von globalen militärischen Allianzen"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "text": "Wie beeinflussen exogene Faktoren die Planwirtschaft?",
+    "options": [
+      "Sie haben keine Auswirkungen auf staatlich kontrollierte Ökonomien",
+      "Sie können zu einer Öffnung der Märkte und Liberalisierung führen",
+      "Sie verstärken staatliche Kontrollmechanismen",
+      "Sie reduzieren die Effizienz der Wirtschaftsplanung"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "text": "Was ist eine direkte Folge der Verstädterung auf die lokale Wirtschaft?",
+    "options": [
+      "Verringerung der wirtschaftlichen Aktivitäten",
+      "Erhöhung der Agrarproduktion im urbanen Bereich",
+      "Steigerung der Dienstleistungssektoren und Handelsaktivitäten",
+      "Verlust der kulturellen Identität"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "text": "Welche Aussage trifft am besten auf die Wirkung von Oligopolen in entwickelten Märkten zu?",
+    "options": [
+      "Sie fördern den freien Wettbewerb",
+      "Sie führen zu einer Senkung der Preise durch Effizienzsteigerung",
+      "Sie können zu höheren Preisen und geringerem Wettbewerb führen",
+      "Sie haben keinen Einfluss auf die Marktstrukturen"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "text": "Wie beeinflusst eine freie Marktwirtschaft die soziale Ungleichheit?",
+    "options": [
+      "Sie verringert soziale Ungleichheiten durch freien Handel",
+      "Sie hat keinen Einfluss auf soziale Strukturen",
+      "Sie kann soziale Ungleichheiten durch Mangel an staatlicher Intervention verstärken",
+      "Sie fördert die Gleichheit durch staatliche Wohlfahrtsprogramme"
+    ],
+    "answerIndex": 2
   }
 ]
