@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Vorbereitung</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="upload-container">
+        <input type="file" id="file-input" accept=".json">
+        <button onclick="loadUploadedQuestions()">Fragen laden</button>
+    </div>
+    <div id="quiz-container">
+        <div id="question"></div>
+        <ul id="answers"></ul>
+        <button onclick="nextQuestion()">Nächste Frage</button>
+        <button onclick="resetQuiz()">Quiz neustarten</button> <!-- Neuer Button -->
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>

@@ -1,0 +1,173 @@
+[
+  {
+    "text": "Was sind Stadtentwicklungsprozesse primär gekennzeichnet durch?",
+    "options": [
+      "Die Geschichte der Städtegründung",
+      "Dynamische Veränderungen innerhalb städtischer Strukturen",
+      "Die Entwicklung von ländlichen zu städtischen Lebensräumen",
+      "Die Verwaltung von Stadtressourcen"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "text": "Welche Regionen umfasst Wallersteins Konzept von Zentrum, Semiperipherie und Peripherie?",
+    "options": [
+      "Wirtschaftliche und politische Machtstufen in der globalen Wirtschaft",
+      "Geografische Regionen innerhalb eines Landes",
+      "Stufen der industriellen Entwicklung",
+      "Politische Zugehörigkeit in internationalen Organisationen"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "text": "Welche Hauptattraktionen und Herausforderungen prägen den Tourismus in Ägypten?",
+    "options": [
+      "Wüsten und Oasen",
+      "Historische Monumente und Umweltprobleme",
+      "Moderne Städte und Arbeitslosigkeit",
+      "Strände und Überbevölkerung"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "text": "Was kennzeichnet Pantherstaaten im Vergleich zu Tigerstaaten?",
+    "options": [
+      "Pantherstaaten sind reiche Länder, Tigerstaaten sind Entwicklungsländer",
+      "Pantherstaaten befinden sich in verschiedenen Regionen, Tigerstaaten sind speziell in Asien",
+      "Pantherstaaten sind europäisch, Tigerstaaten asiatisch",
+      "Es gibt keine Unterschiede"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "text": "Was ist ein zentrales Merkmal der Modernisierungstheorie?",
+    "options": [
+      "Betonung auf Handelsbeziehungen",
+      "Betonung auf technologischem und kulturellem Wandel",
+      "Fokus auf politischer Stabilität",
+      "Fokus auf militärische Macht"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "text": "Wie unterscheidet sich die Dependenztheorie von der Modernisierungstheorie?",
+    "options": [
+      "Sie fokussiert mehr auf interne politische Systeme",
+      "Sie bevorzugt kapitalistische Wirtschaftsmodelle",
+      "Sie betont die Abhängigkeit von externen Mächten und unfaire Handelsbeziehungen",
+      "Sie fördert freie Marktwirtschaften"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "text": "Was sind endogene Faktoren für Unterentwicklung?",
+    "options": [
+      "Externe Schulden und Handelsdefizite",
+      "Politische Instabilität und schlechte Governance",
+      "Internationale Sanktionen",
+      "Globale Erwärmung"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "text": "Welche Auswirkungen haben Land Deals in Afrika typischerweise?",
+    "options": [
+      "Verbesserte Infrastruktur und mehr Arbeitsplätze",
+      "Verdrängung lokaler Gemeinschaften und Umweltzerstörung",
+      "Erhöhte lokale Nahrungsmittelproduktion",
+      "Stärkere lokale Regierungen"
+    ],
+    "answerIndex": 1
+  },
+
+  {
+    "text": "Welche Form der Marktwirtschaft ist charakterisiert durch staatliche Eingriffe zur sozialen Absicherung?",
+    "options": [
+      "Freie Marktwirtschaft",
+      "Planwirtschaft",
+      "Soziale Marktwirtschaft",
+      "Informelle Wirtschaft"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "text": "Was ist ein Hauptziel der Dependenztheorie?",
+    "options": [
+      "Förderung globaler Handelsliberalisierung",
+      "Verstehen der Abhängigkeitsbeziehungen zwischen entwickelten und unterentwickelten Ländern",
+      "Unterstützung für unilaterale Wirtschaftsreformen",
+      "Stärkung der militärischen Allianzen zwischen Ländern"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "text": "Welche Aussage trifft am besten auf die Wirkung des Klimawandels auf die Landwirtschaft zu?",
+    "options": [
+      "Klimawandel hat keinen Einfluss auf landwirtschaftliche Erträge",
+      "Klimawandel kann zu verbesserten Anbaubedingungen in allen Regionen führen",
+      "Klimawandel kann sowohl negative als auch positive Effekte auf die Landwirtschaft haben",
+      "Klimawandel führt ausschließlich zu einer Zunahme der landwirtschaftlichen Produktivität"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "text": "Welche Marktform wird durch einen einzigen Anbieter charakterisiert?",
+    "options": ["Oligopol", "Monopol", "Polypol", "Dyopol"],
+    "answerIndex": 1
+  },
+  {
+    "text": "Welche Strategie ist effektiv zur Anpassung der Landwirtschaft an den Klimawandel?",
+    "options": [
+      "Erhöhung der Pestizidnutzung",
+      "Ausweitung der Monokulturen",
+      "Entwicklung klimaresistenter Kulturpflanzen",
+      "Verringerung der landwirtschaftlichen Forschung"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "text": "Wie beeinflusst Urbanisierung typischerweise die Umwelt in Städten?",
+    "options": [
+      "Führt zur Verringerung von Luftverschmutzung",
+      "Erhöht die biologische Vielfalt",
+      "Steigert die Effizienz der Ressourcennutzung",
+      "Kann zu erhöhter Umweltverschmutzung und Ressourcenbelastung führen"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "text": "Welches Land gilt als Beispiel für einen Tigerstaat?",
+    "options": ["Brasilien", "Deutschland", "Südkorea", "Ägypten"],
+    "answerIndex": 2
+  },
+  {
+    "text": "Welche Aussage beschreibt die Wirkung von exogenen Faktoren auf die Entwicklung?",
+    "options": [
+      "Sie sind hauptsächlich auf internationale Handelsabkommen beschränkt",
+      "Sie betreffen nur die interne Politik eines Landes",
+      "Sie umfassen internationale Einflüsse wie globale Märkte und Politiken",
+      "Sie sind irrelevant für die Entwicklungspolitik"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "text": "Was kennzeichnet ein Oligopol?",
+    "options": [
+      "Ein Markt mit vielen kleinen Anbietern",
+      "Ein Markt beherrscht von wenigen großen Anbietern",
+      "Ein vollständig deregulierter Markt",
+      "Ein staatlich kontrollierter Markt"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "text": "Was ist eine Hauptfolge der Land Deals in Afrika hinsichtlich der lokalen Bevölkerung?",
+    "options": [
+      "Verbesserung der lokalen Infrastruktur",
+      "Verdrängung und Landkonflikte",
+      "Sofortige wirtschaftliche Unabhängigkeit",
+      "Zunahme der lokalen Lebensmittelproduktion"
+    ],
+    "answerIndex": 1
+  }
+]
